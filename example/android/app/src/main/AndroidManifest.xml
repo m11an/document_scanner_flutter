@@ -4,6 +4,7 @@
 
     <application
         android:icon="@mipmap/ic_launcher"
+        android:exported="true"
         android:label="document_scanner_flutter_example"
         tools:replace="android:label">
         <activity
@@ -11,6 +12,7 @@
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop"
+            android:exported="true"
             android:theme="@style/LaunchTheme"
             android:windowSoftInputMode="adjustResize">
             <!-- Specifies an Android theme to apply to this Activity as soon as
